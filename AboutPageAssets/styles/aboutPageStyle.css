@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway|Roboto|Miriam+Libre');
+
+*{
+	margin:0px;
+	}
+	.collapse{
+		background-color:white;
+		}
+.navbar{
+	z-index:2;	
+	}
+#navbar{
+	height:80px;
+	padding-top:10px;	
+	box-shadow:0px 3px 10px grey;
+	}
+#navbar ul li a:link {
+border-radius:2px;
+width:100px;
+margin:3px;
+background-color:white;
+}
+.navbar-toggle{
+	background-color:white;	
+	}
+#logo{
+height:150px;
+width:auto;	
+	}
+
+#navbar ul li a:hover {
+	border:solid deepskyblue 3px;
+}
+	h1{
+	font-color:deepskyblue;	
+		}
+/* Global Styles */
+#section1{
+	margin-top:-20px;
+	background-color:#CDCEE5;	
+	width:100%;
+	padding:1% 0% 5% 0%;
+	}
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+/* Header */
+
+header {
+	width:100%;
+	text-align: center;
+}
+#introtext{
+	margin-top:70px;	
+	}
+.salutation{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top:1%;
+	width:100%;
+	height:350px;
+	background-color:black;
+	background-size:cover;
+	font-family:raleway;
+	color:white;
+	margin:0px;
+	font-size:60px;
+	}
+#textsec{
+
+	min-width:40%;
+	margin:5% 2% 1% 2%;
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	font-family:Raleway;
+	padding:2%;
+	}
+	#news{
+		margin-top:2%;	
+		position:relative;
+		float:none;
+		}
+		#carousel1{
+		width:100%;
+		height:auto;	
+			}
+			.row{
+		max-width:100%;
+				}
+	footer{
+		background-color:#020032;
+		height:20%;
+		width:100%;
+		color:white;
+		font-family:miriam libre;
+		font-size:12px;
+		font-weight:bold;
+		}
+		.contact{
+			font-size:24px;
+			color:white;
+			font-family:raleway;	
+			}
+		#aboutuspara{
+			font-family:raleway;
+			padding:4%;	
+			margin-bottom:2%;
+			}
+			#faces{
+			padding-bottom:5%;	
+				}
+			#contactus{
+			margin-top:80px;
+			background-color:#CDCEE5;
+			width:100%;
+				}
+.formbox{
+	display:flex;
+	justify-content:center;	
+	font-family:raleway;
+	background-color:#8F1DFF;
+	color:white;
+	padding:2%;
+	border-radius:5%;
+	margin:10px;
+	}
+:placeholder-shown  {
+  color: orange;
+}
